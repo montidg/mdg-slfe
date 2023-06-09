@@ -1,6 +1,6 @@
 {
 	"name": "mdg-slfe",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -12,7 +12,8 @@
 		"./package.json": "./package.json",
 		".": "./dist/util.js",
 		"./style": "./dist/style/Style.svelte",
-		"./form": "./dist/form/Form.svelte"
+		"./form": "./dist/form/Form.svelte",
+		"./button": "./dist/button/Button.svelte"
 	},
 	"files": [
 		"dist",
