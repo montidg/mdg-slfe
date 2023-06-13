@@ -4,3 +4,8 @@ let returnSuccess = (success, data) => {
 let safeName = function (text) {
     return text.replaceAll(/[^A-Za-z0-9\-\_]/g, '');
 }
+
+export {
+    returnSuccess,
+    safeName
+}
