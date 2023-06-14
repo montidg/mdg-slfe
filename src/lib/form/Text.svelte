@@ -1,6 +1,6 @@
 <style>
     .main {
-        width: 200px;
+        width: 500px;
         height: 100px;
         border: none;
 

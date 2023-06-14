@@ -79,6 +79,11 @@
         justify-content: flex-end;
         margin: 15px;
     }
+
+    .tspan {
+        grid-column: span 2;
+        display: grid;
+    }
 </style>
 
 <p>
@@ -87,8 +92,8 @@
 
 <div class='form'>
     {#each data as slider}
-        <div class='text'>{slider.key}</div>
-        <div class='input'>
+        <div class='text {slider.type == 'text' ? 'tspan' : ''}'>{slider.key}</div>
+        <div class='input {slider.type == 'text' ? 'tspan' : ''}'>
             {#if slider.type == 'slider'} 
                 <Slider bind:form={form[slider.name]}></Slider>
             {:else if slider.type == 'text'}
