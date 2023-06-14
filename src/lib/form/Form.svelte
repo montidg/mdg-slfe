@@ -70,14 +70,14 @@
         text-align: left;
     }
 
-    .form .text {
+    .form .text, .form .input {
         margin: 15px;
+        margin-left: 0;
     }
 
     .form .input {
         display: flex;
         justify-content: flex-end;
-        margin: 15px;
     }
 
     .tspan {
