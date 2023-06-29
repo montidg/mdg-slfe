@@ -1,9 +1,7 @@
 <script>
     export let data = [
         {
-            "type": "slider",
-            "key": "Test",
-            "name": "test"
+            "type": "slider"
         }
     ];
     export let form = {};

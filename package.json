@@ -1,6 +1,6 @@
 {
 	"name": "mdg-slfe",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -28,7 +28,7 @@
 		"@sveltejs/kit": "^1.5.0",
 		"@sveltejs/package": "^2.0.0",
 		"publint": "^0.1.9",
-		"svelte": "^3.54.0",
+		"svelte": "^4.0.0",
 		"tslib": "^2.4.1",
 		"vite": "^4.3.0"
 	},
